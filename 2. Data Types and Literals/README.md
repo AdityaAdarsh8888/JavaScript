@@ -1,7 +1,9 @@
 -> Data Types
-    -> Array data type shown as "object" data type.
-
+<br>
+-> Array data type shown as "object" data type.
+<br>
 -> Literals
+<br>
 -> Another way to declare a function 
 
 # In JavaScript, arrays are considered objects, which is why typeof a returns "object".
