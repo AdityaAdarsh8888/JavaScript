@@ -1,4 +1,4 @@
-<h1>Intro: Global Execution Context (GEC) in JavaScript</h1>
+<h1>Global Execution Context (GEC) in JavaScript</h1>
 <p>In JavaScript, the Global Execution Context (GEC) refers to the execution context that is created by default when the JavaScript engine starts executing our code. Or we can say, it's the environment in which our JavaScript code runs when it's not inside a function.</p>
 <h2>Key Components of GEC</h2>
 <ul>
