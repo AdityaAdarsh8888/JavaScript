@@ -47,9 +47,9 @@ console.log("end");
 <p>4. Once all code in the GEC has finished executing, the GEC is destroyed.</p>
 <h2>Key Points</h2>
 <ul>
-<li>1. The GEC is fundamental to understanding how JavaScript code executes.</li>
-<li>2. It provides the initial context for all other code within our script.</li>
-<li>3. Understanding the GEC helps you better grasp variable scope, function execution, and how JavaScript manages memory.</li>
+<li>The GEC is fundamental to understanding how JavaScript code executes.</li>
+<li>It provides the initial context for all other code within our script.</li>
+<li>Understanding the GEC helps you better grasp variable scope, function execution, and how JavaScript manages memory.</li>
 </ul>
 <h2>In Summary</h2>
 <p>The Global Execution Context is the foundational environment for our JavaScript code. It holds variables, functions, and the <code>this</code> keyword, providing the necessary context for our code to run successfully.</p>
