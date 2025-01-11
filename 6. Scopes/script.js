@@ -9,7 +9,7 @@ if (true) {
 
 console.log("OUTER a: ", a);         // Output: 300
 console.log("OUTER c: ", c);         // Output: 300
-// console.log("OUTER b: ", b);      // Output: Undefined
+// console.log("OUTER b: ", b);      // Output: b is not defined
 
 
 /*****************************/
