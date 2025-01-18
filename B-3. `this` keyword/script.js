@@ -37,7 +37,15 @@ one();
 
 
 function two() {
-    let userName2 = "Aditya Adarsh"
+    let userName2 = "Aditya Adarsh";
     console.log(this.userName2);
 }
 two();                                    // Output: undefined
+
+
+const three = () => {
+    let userName3 = "Aditya Adarsh";
+    console.log(this.userName3);         // Output: undefined
+    console.log(this);                   // Output: {}
+}
+three();
