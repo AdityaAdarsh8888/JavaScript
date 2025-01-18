@@ -17,13 +17,27 @@ user.userName = `Aditya Adarsh`;
 
 user.welcomeMessage();      // Output: Welcome, Aditya Adarsh & Current context,{userName: 'Aditya Adarsh', age: 21, welcomeMessage: ƒ}
 
-console.log(this);   // In browsers: Window object, In node enviroment: {}, an empty object
+console.log(this);          // In browsers: Window object, In node enviroment: {}, an empty object
 
 
 
 /*this keyword in function*/
 
 function code () {
-    console.log(this);    // Output: Object [global] {...}
+    console.log(this);                     // Output: Object [global] {...}
 }
 code();
+
+
+const one = function () {
+    let userName1 = "Aditya Adarsh"
+    console.log(this.userName1);           // Output: undefined
+}
+one();
+
+
+function two() {
+    let userName2 = "Aditya Adarsh"
+    console.log(this.userName2);
+}
+two();                                    // Output: undefined
