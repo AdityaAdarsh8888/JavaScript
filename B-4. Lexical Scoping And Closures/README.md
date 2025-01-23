@@ -1,6 +1,3 @@
-# A function binds together in it's lexical enviroment.  
-# Function along with it's lexical scope is known as closure.
-
 # Lexical Scoping and Closures in JavaScript
 
 ## Lexical Scoping
@@ -30,7 +27,7 @@ outer();
 ## Closures
 A **closure** is a function that remembers the environment in which it was created. This environment consists of any local variables that were in-scope at the time the closure was created.
 ### **Note**: 
-In closure, not only function will be returned but also it's whole lexical scope will be returned.
+In closure, not only function will be returned but also it's whole lexical scope will be returned. And function along with it's lexical scope is known as closure.
 
 ### Key Points:
 - **Persistence:** Even after the outer function has executed, the inner function (closure) continues to have access to the outer function’s variables.
