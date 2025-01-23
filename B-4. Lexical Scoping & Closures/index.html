@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leical Scoping & Closures</title>
+</head>
+<body>
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+
+    <!-- <script src="script.js"></script> -->
+
+
+    <!-- Practical or real world use of Lexical Scoping and Closure -->
+
+    <!-- Create two or more buttons to which are able to change the background color of the web page. -->
+
+    <script>
+        /* Method 1 */
+
+        document.getElementById('orange').onclick =  function(){
+            document.body.style.backgroundColor = `orange`;
+        }
+        document.getElementById('green').onclick =  function(){
+            document.body.style.backgroundColor = `green`;
+        }
+
+        // But there is a problem in this method, that this does doesn't obey DRY(Don't repeat yourself) Principle. 
+
+
+
+        /* Mehtod 2 */ /* This is incorrect, because it directly execute the color without clicking on the button */
+
+        //   function clickHandler(color) {
+        //       document.body.style.backgroundColor = `${color}`;
+        //   }
+
+        //   document.getElementById("orange").onclick = clickHandler("orange");
+        //   document.getElementById("green").onclick = clickHandler("green");
+
+
+        /* Method 3 */ /* Best and Optimized method */
+
+        function clickHandler(color) {
+            return function() {
+                document.body.style.backgroundColor = `${color}`;
+            }
+        }
+        document.getElementById("orange").onclick = clickHandler("orange");
+        document.getElementById("green").onclick = clickHandler("green");
+    
+    </script>
+</body>
+</html>
