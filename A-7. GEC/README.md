@@ -1,14 +1,19 @@
-<h1>Global Execution Context (GEC) in JavaScript</h1>
-<p>In JavaScript, the Global Execution Context (GEC) refers to the execution context that is created by default when the JavaScript engine starts executing our code. Or we can say, it's the environment in which our JavaScript code runs when it's not inside a function.</p>
-<h2>Key Components of GEC</h2>
-<ul>
-<li><code>this</code> keyword:- Inside the GEC, <code>this</code> usually refers to the <code>window</code> object in a browser environment.</li>
-<li>Variables: All variables declared outside of any function (using <code>var</code>, <code>let</code>, or <code>const</code>) belong to the GEC.</li>
-<li>Functions: Functions defined globally also reside within the GEC.</li>
-</ul>
-<h2>Code Example:- </h2>
-<pre>
+# Global Execution Context (GEC) in JavaScript
 
+In JavaScript, the Global Execution Context (GEC) refers to the execution context that is created by default when the JavaScript engine starts executing our code. It is the environment in which our JavaScript code runs when it is not inside a function.
+
+## Key Components of GEC
+
+- **`this` keyword**:  
+  Inside the GEC, `this` usually refers to the `window` object in a browser environment.
+- **Variables**:  
+  All variables declared outside of any function (using `var`, `let`, or `const`) belong to the GEC.
+- **Functions**:  
+  Functions defined globally also reside within the GEC.
+
+## Code Example
+
+```javascript
 // Global variables
 
 var a = 1;          // Declared with 'var', accessible globally and hoisted.
@@ -38,20 +43,21 @@ console.log(c);     // Output: 3 (global 'c', unaffected by the block-scoped 'c'
 console.log(d);     // Output: 40 ('var' variable, hoisted to the global scope).
 console.log(e);     // Output: 40 (implicitly created global variable).
 console.log("end");
+```
 
-</pre>
-<h2>How GEC Works</h2>
-<p>1. When our script starts, the GEC is created.</p>
-<p>2. All variables and functions declared globally are added to the GEC's memory.</p>
-<p>3. The code is then executed line by line.</p>
-<p>4. Once all code in the GEC has finished executing, the GEC is destroyed.</p>
-<h2>Key Points</h2>
-<ul>
-<li>The GEC is fundamental to understanding how JavaScript code executes.</li>
-<li>It provides the initial context for all other code within our script.</li>
-<li>Understanding the GEC helps you better grasp variable scope, function execution, and how JavaScript manages memory.</li>
-</ul>
-<h2>In Summary</h2>
-<p>The Global Execution Context is the foundational environment for our JavaScript code. It holds variables, functions, and the <code>this</code> keyword, providing the necessary context for our code to run successfully.</p>
-</body>
-</html>
+## How GEC Works
+
+1. When our script starts, the GEC is created.
+2. All variables and functions declared globally are added to the GEC's memory.
+3. The code is then executed line by line.
+4. Once all code in the GEC has finished executing, the GEC is destroyed.
+
+## Key Points
+
+- The GEC is fundamental to understanding how JavaScript code executes.
+- It provides the initial context for all other code within our script.
+- Understanding the GEC helps you better grasp variable scope, function execution, and how JavaScript manages memory.
+
+## In Summary
+
+The Global Execution Context is the foundational environment for our JavaScript code. It holds variables, functions, and the `this` keyword, providing the necessary context for our code to run successfully.

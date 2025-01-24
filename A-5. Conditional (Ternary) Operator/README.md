@@ -1,37 +1,29 @@
 # Conditional (Ternary) Operator in JavaScript
 
-<p>The conditional operator, often referred to as the ternary operator, is a shorthand way to write an if-else statement in JavaScript. It takes three operands and evaluates to a value based on a condition.</p>
+The conditional operator, often referred to as the ternary operator, is a shorthand way to write an if-else statement in JavaScript. It takes three operands and evaluates to a value based on a condition.
 
-<h2>Syntax</h2>
+## Syntax
 
-<pre>
-    <code> condition ? expressionIfTrue : expressionIfFalse; </code>
-</pre>
+```javascript
+condition ? expressionIfTrue : expressionIfFalse;
+```
 
-<ul>
-    <li><b>condition</b>: An expression that evaluates to true or false.</li>
-    <li><b>expressionIfTrue</b>: The value or expression executed if the condition is true.</li>
-    <li><b>expressionIfFalse</b>: The value or expression executed if the condition is false.</li>
-</ul>
+- **condition**: An expression that evaluates to `true` or `false`.
+- **expressionIfTrue**: The value or expression executed if the condition is `true`.
+- **expressionIfFalse**: The value or expression executed if the condition is `false`.
 
-<h2>Key Features</h2>
+## Key Features
 
-<ul>
-    <li><b>Compactness</b>: More concise than if-else.</li>
-    <li><b>Expression-based</b>: Always returns a value.</li>
-    <li><b>Nested Ternary</b>: Can be nested, though it's not recommended for readability.</li>
-</ul>
+- **Compactness**: More concise than if-else.
+- **Expression-based**: Always returns a value.
+- **Nested Ternary**: Can be nested, though it's not recommended for readability.
 
-<h2>Advantages</h2>
+## Advantages
 
-<ul>
-  <li>Reduces the number of lines of code.</li>
-  <li>Improves code readability when used appropriately.</li>
-</ul>
+- Reduces the number of lines of code.
+- Improves code readability when used appropriately.
 
-<h2>Disadvantages</h2>
+## Disadvantages
 
-<ul>
-  <li>Can make code harder to read when overused or nested excessively.</li>
-  <li>May reduce maintainability in complex cases.</li>
-</ul>
+- Can make code harder to read when overused or nested excessively.
+- May reduce maintainability in complex cases.

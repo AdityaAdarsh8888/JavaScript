@@ -1,6 +1,6 @@
 ## Types of JavaScript
 
-This document demonstrates two types of JavaScript usage:
+There are two types of JavaScript usage:
 
 * **Internal JavaScript:** JavaScript code written directly within the `<script>` tags in an HTML file.
 
