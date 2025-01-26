@@ -1,7 +1,7 @@
 # JavaScript `arguments` Object
 
 ## Overview
-The `arguments` object is an array-like object accessible within all non-arrow functions. It contains the values of the arguments passed to that function. [Learn more on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments).
+The `arguments` object is an array-like object accessible within all non-arrow functions. It contains the values of the arguments passed to that function.
 
 ---
 
