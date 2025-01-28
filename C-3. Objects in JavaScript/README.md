@@ -1,6 +1,3 @@
-Below is the detailed content on **Objects in JavaScript** formatted as a `README.md` file. You can copy and paste this into your `README.md` file.
-
-```markdown
 # Objects in JavaScript
 
 Objects are one of the most fundamental data types in JavaScript. They are used to store collections of data and more complex entities. In JavaScript, objects are a collection of **key-value pairs**, where each key is a string (or Symbol) and the value can be any data type, including other objects, functions, arrays, etc.
