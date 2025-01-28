@@ -272,5 +272,3 @@ console.log(person); // Output: { name: "Bob" }
 
 Objects are a powerful and flexible data structure in JavaScript. They allow you to store and organize data in a meaningful way, and their methods and properties make them highly versatile for various programming tasks.
 ```
-
-You can save this content in a file named `README.md` and use it for your project or reference. Let me know if you need further assistance!
